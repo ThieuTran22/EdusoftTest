@@ -9,7 +9,7 @@ namespace EdusoftTest
         public List<IWebElement> MenuTinhNang { get; set; } = new List<IWebElement>();
         public cEduWeb(bool headless, bool incognito) : base(headless, incognito)
         {
-            NavTo("https://sp.aqtech.edu.vn/svtt.Netweb/#/home");
+            NavTo(cCombine.Portal);
             Thread.Sleep(3000);
         }
         public bool DangNhap(string taiKhoan, string matKhau)

@@ -2,8 +2,13 @@
 {
     internal class cCombine
     {
-
+        public static string Portal { get; set; }
         public cCombine() { }
+        public static void SetPortal()
+        {
+            Console.Write("Vui lòng nhập portal: ");
+            Portal = Console.ReadLine()!;
+        }
 
         public static void UnitTest()
         {
