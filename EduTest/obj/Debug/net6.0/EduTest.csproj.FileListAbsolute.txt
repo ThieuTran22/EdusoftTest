@@ -1,0 +1,5 @@
+C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.csproj.AssemblyReference.cache
+C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.AssemblyInfoInputs.cache
+C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.AssemblyInfo.cs
+C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.csproj.CoreCompileInputs.cache
