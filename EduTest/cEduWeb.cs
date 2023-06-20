@@ -14,20 +14,25 @@ namespace EdusoftTest
         }
         public bool DangNhap(string taiKhoan, string matKhau)
         {
-            try {
-                // Điền tài khoản và mật khẩu
-                Send(By.XPath("//input[@formcontrolname='username']"), taiKhoan);
-                Send(By.XPath("//input[@formcontrolname='password']"), matKhau);
+            /*    try {*/
+            // Điền tài khoản và mật khẩu
+            Send(By.XPath("//input[@formcontrolname='username']"), taiKhoan);
+            Send(By.XPath("//input[@formcontrolname='password']"), matKhau);
 
-                //Nhấp đăng nhập
-                GetEle(By.XPath("//button[contains(text(),'Đăng nhập')]")).Click();
-                Thread.Sleep(3000);
-                SetMenuTinhNang();
-                return true;
-            } catch (Exception e) {
-                Console.WriteLine("Có lỗi xảy ra khi đăng nhập: " + e);
-                return false;
+            //Nhấp đăng nhập
+            Click(By.XPath("//button[contains(text(),'Đăng nhập')]"));
+            Thread.Sleep(3000);
+            if (ContainsText("Đăng nhập không thành công")) {
+                Console.WriteLine("Tài khoản hoặc mật khẩu không đúng!");
+                Console.ReadKey();
+
             }
+            SetMenuTinhNang();
+            return true;
+            /*            } catch (Exception e) {
+                            Console.WriteLine("Có lỗi xảy ra khi đăng nhập: " + e);
+                            return false;
+                        }*/
         }
         #endregion
 

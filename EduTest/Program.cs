@@ -7,6 +7,6 @@ Console.InputEncoding = Encoding.Unicode;
 #endregion
 
 // Unit test
-cCombine.SetPortal();
+
 
 cCombine.UnitTest();
