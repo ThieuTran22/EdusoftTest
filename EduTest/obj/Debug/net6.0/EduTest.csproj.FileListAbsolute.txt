@@ -3,6 +3,7 @@ C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.GeneratedMSBuildEditorConfig
 C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.AssemblyInfoInputs.cache
 C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.AssemblyInfo.cs
 C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\Project\EduTest\EduTest\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
 C:\Project\EduTest\EduTest\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
 C:\Project\EduTest\EduTest\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
@@ -20,3 +21,27 @@ C:\Project\EduTest\EduTest\obj\Debug\net6.0\refint\EduTest.dll
 C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.pdb
 C:\Project\EduTest\EduTest\obj\Debug\net6.0\EduTest.genruntimeconfig.cache
 C:\Project\EduTest\EduTest\obj\Debug\net6.0\ref\EduTest.dll
+=======
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.csproj.AssemblyReference.cache
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.AssemblyInfoInputs.cache
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.AssemblyInfo.cs
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.csproj.CoreCompileInputs.cache
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\EduTest.exe
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\EduTest.deps.json
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\EduTest.runtimeconfig.json
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\EduTest.dll
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\EduTest.pdb
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\WebDriver.dll
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.csproj.CopyComplete
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.dll
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\refint\EduTest.dll
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.pdb
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\EduTest.genruntimeconfig.cache
+C:\Users\YaMink\EduSoftTest\EdusoftTest\EduTest\obj\Debug\net6.0\ref\EduTest.dll
+>>>>>>> gminh

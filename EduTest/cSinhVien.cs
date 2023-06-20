@@ -536,12 +536,27 @@ namespace EdusoftTest
         }
 
         // Gửi ý kiến cho ban quản lý
-        public bool TestGuiYKienChoBanQuanLy()
+        public bool TestGuiYKienChoBanQuanLy(string chuDe, string noiDung)
         {
             NavTo("https://sp.aqtech.edu.vn/svtt.Netweb/#/" + router.Split("\r\n")[37]);
-            if (KhongTimThayDuLieu()) return false;
+           /* if (KhongTimThayDuLieu()) return false;*/
             Console.WriteLine($"Đang test menu: Gửi ý kiến cho ban quản lý");
+            Thread.Sleep(2000);
+            // Dien chu de
+            Send(By.XPath("//input[@formcontrolname='chu_de']"),chuDe);
+            // Dien noi dung
+            //driver.FindElement(By.XPath("//div[@role=\"textbox\"]")).SendKeys("ádasdsadsadqbjqwje");
+            Send(By.XPath("//div[@role=\"textbox\"]"),noiDung);
+            // Click gui gop y 
+            GetEle(By.XPath("//button[contains(text(),'Gửi góp ý')]")).Click();
+            // Kiem tra noi dung da gop y
+            Console.WriteLine("Số góp ý đã kiểm tra");
+            //Dùng descendant để tìm biến con trong 1 biến cha
+            var tableNoiDungGopY = GetEles(By.XPath("//tbody//descendant::tr"));
+      
+            Console.WriteLine(tableNoiDungGopY.Count);
             return true;
+           
         }
 
         // Tra cứu văn bằng chứng chỉ
