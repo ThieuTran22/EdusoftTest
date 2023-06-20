@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cezUASX1Jpe44f7d7eV8ma8Cq3Hb0JACRRSKNJNCtqLmpQnpShtAhU9iuBfL82Am4bEg83MhZt29gwdP0nwz5g==",
+  "dgSpecHash": "F55a7VoYXaI8gcbMH9xloXIPLVBu1z5EC/13UKTLB0xVe9zy9vBQOwNroi1AgmedH/PjfhJWR93/kkHC9Ygp1A==",
   "success": true,
-  "projectFilePath": "C:\\Project\\EduTest\\EduTest\\EduTest.csproj",
+  "projectFilePath": "C:\\Users\\YaMink\\EduTest\\EdusoftTest\\EduTest\\EduTest.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\thieu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\thieu\\.nuget\\packages\\selenium.webdriver\\4.10.0\\selenium.webdriver.4.10.0.nupkg.sha512",
-    "C:\\Users\\thieu\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512"
+    "C:\\Users\\YaMink\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\YaMink\\.nuget\\packages\\selenium.webdriver\\4.10.0\\selenium.webdriver.4.10.0.nupkg.sha512",
+    "C:\\Users\\YaMink\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
