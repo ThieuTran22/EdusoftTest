@@ -30,6 +30,12 @@
           "buildTransitive/Selenium.WebDriver.targets": {}
         }
       },
+      "Selenium.WebDriver.ChromeDriver/114.0.5735.9000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
       "SeleniumExtras.WaitHelpers/1.0.2": {
         "type": "package",
         "dependencies": {
@@ -97,6 +103,25 @@
         "selenium.webdriver.nuspec"
       ]
     },
+    "Selenium.WebDriver.ChromeDriver/114.0.5735.9000": {
+      "sha512": "BgBGrbMiyhq+wZjWfKE0t5A+TVlY5kbUj8BcxPSMjuGOW2CinaMNZq567ZjxDNDvnqJBKmx2mPa5Hkjolt28Lg==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/114.0.5735.9000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.114.0.5735.9000.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
     "SeleniumExtras.WaitHelpers/1.0.2": {
       "sha512": "de7m30nkZZLkfCncYBdluUpM27AR/Vkk4kiA4HRQbV+fZI3ps4qGIeJCuj8TAMXdMfQik5Rno8xPnFBIod+ebg==",
       "type": "package",
@@ -114,23 +139,24 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Selenium.WebDriver >= 4.10.0",
+      "Selenium.WebDriver.ChromeDriver >= 114.0.5735.9000",
       "SeleniumExtras.WaitHelpers >= 1.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thieu\\.nuget\\packages\\": {}
+    "C:\\Users\\YaMink\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\EduTest\\EduTest\\EduTest.csproj",
+      "projectUniqueName": "C:\\Users\\YaMink\\EduTest\\EdusoftTest\\EduTest\\EduTest.csproj",
       "projectName": "EduTest",
-      "projectPath": "C:\\Project\\EduTest\\EduTest\\EduTest.csproj",
-      "packagesPath": "C:\\Users\\thieu\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\EduTest\\EduTest\\obj\\",
+      "projectPath": "C:\\Users\\YaMink\\EduTest\\EdusoftTest\\EduTest\\EduTest.csproj",
+      "packagesPath": "C:\\Users\\YaMink\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\YaMink\\EduTest\\EdusoftTest\\EduTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\YaMink\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -160,6 +186,10 @@
             "target": "Package",
             "version": "[4.10.0, )"
           },
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[114.0.5735.9000, )"
+          },
           "SeleniumExtras.WaitHelpers": {
             "target": "Package",
             "version": "[1.0.2, )"
@@ -181,7 +211,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
