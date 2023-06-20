@@ -1,0 +1,11 @@
+C:\EduTest.exe
+C:\selenium-manager\linux\selenium-manager
+C:\selenium-manager\macos\selenium-manager
+C:\selenium-manager\windows\selenium-manager.exe
+C:\EduTest.dll
+C:\EduTest.deps.json
+C:\EduTest.runtimeconfig.json
+C:\EduTest.pdb
+C:\Newtonsoft.Json.dll
+C:\WebDriver.dll
+C:\SeleniumExtras.WaitHelpers.dll
